@@ -1,0 +1,77 @@
+/* style sheet created by Izzie Trunzo 12/4/23*/
+
+/* Style for body specifies a background color*/
+body {
+	background-color: #6b7fae;
+	color: #FFFFFF;
+}
+
+/*style to create a fluid image*/
+img {
+	max-width: 100%;
+}
+
+h1 {
+	  color: black;
+  -webkit-text-fill-color: white; /* Will override color (regardless of order) */
+  -webkit-text-stroke: .5px black;
+}
+
+/*styles for moile layout*/
+
+/*Style for container center the page and set the element width*/
+#container {
+		width: 100%;
+		margin-left: auto;
+		margin-right: auto;
+}
+
+/*Style for header specifies top margin, background color, rounded corners, and center aligns content*/
+header { 
+	text-align: center;
+}
+
+/* style for nav specifies text properties*/
+nav{
+	font-family:Georgia, "Times New Roman" serif;
+	font-size: 1.25em;
+	font-weight: bold;
+	text-align: center;
+	margin-top: 0.5em;
+	color: #deb87e;
+}
+
+/*styles specifies padding and margins for the unorder list*/
+nav ul {
+	padding: 0;
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
+}
+
+/*styles specifies padding and margins for the unorder list*/
+nav ul {
+	padding: 0;
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
+}
+
+/* style for nav li specifies the background color, rounded corners, remove bullets, and applies margins and padding for list items within the nav*/
+nav li {
+	background-color: #deb87e;
+	border-radius: 2em;
+	list-style-type: none;
+	margin: 0.3em;
+	padding: 0.4em;
+}
+
+/*style changes nav link text color to white and removes underline*/
+nav li a {
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+footer {
+	text-align: center;
+	font-size:0.75em;
+}
+
